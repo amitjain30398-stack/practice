@@ -9,29 +9,38 @@
         border-collapse: collapse;
         width: 100%;
       }
+
       th,
       td {
         text-align: center;
-        height: 50px;
+        height: 70px;
         width: 100px;
       }
+
       div {
-        width: 50%;
+        width: 60%;
         margin: auto;
         border: 2px solid black;
         padding: 10px;
         margin-top: 20px;
       }
+
       .color {
         background-color: rgb(204, 237, 136);
       }
+
+      .time td {
+        height: 40px;
+      }
+
+
     </style>
   </head>
   <body>
 
     <!-- timetable -->
 
-    <h1 style="text-align: center;">Class Timetable</h1>
+    <h1 style="text-align: center;">Timetable</h1>
 
     <div>
       <table border="1">
@@ -46,7 +55,7 @@
           <th>6</th>
           <th>7</th>
         </tr>
-        <tr style="background-color: rgb(204, 237, 136)">
+        <tr class="time" style="background-color: rgb(204, 237, 136)">
           <td class="color">Time</td>
           <td>08:30 - 09:10</td>
           <td>09:10 - 09:50</td>
